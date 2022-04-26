@@ -34,6 +34,12 @@ namespace DragPanelMove
             if (e.Button == MouseButtons.Left)
             {
                 mCurrentPosition = new Point(-e.X, -e.Y);
+
+                label1.Text = $"X : {e.X}" ;
+                label2.Text = $"Y : {e.Y}";
+
+
+
             }
         }
 
